@@ -15,7 +15,7 @@ cask "repoprompt-ce" do
   auto_updates true
   depends_on macos: :sonoma
 
-  app "RepoPrompt.app", target: "RepoPrompt CE.app"
+  app "RepoPrompt CE.app"
 
   uninstall quit: "com.pvncher.repoprompt.ce"
 
